@@ -1,0 +1,16 @@
+.homePage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.homePage section {
+  scroll-margin-top: 5rem;
+}
+
+/* Custom styles for the home page */
+.heroGradient {
+  background: linear-gradient(to right, rgba(37, 99, 235, 0.1), rgba(37, 99, 235, 0.05));
+  border-radius: 1rem;
+}
+

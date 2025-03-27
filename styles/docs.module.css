@@ -1,0 +1,29 @@
+.docsPage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.docsPage section {
+  flex: 1;
+}
+
+/* Custom styles for documentation */
+.docContent h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.docContent p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.docContent code {
+  background-color: rgba(241, 245, 249, 0.5);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+

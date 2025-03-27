@@ -1,0 +1,56 @@
+.comparisonPage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.comparisonPage section {
+  flex: 1;
+}
+
+/* Custom styles for the upload area */
+.uploadArea {
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.uploadArea:hover {
+  border-color: hsl(var(--primary));
+  background-color: rgba(37, 99, 235, 0.05);
+}
+
+/* Custom styles for the analysis results */
+.analysisChart {
+  height: 300px;
+  max-width: 100%;
+}
+
+.highlightMatch {
+  background-color: rgba(37, 99, 235, 0.2);
+  padding: 0 0.2rem;
+  border-radius: 0.25rem;
+}
+
+.highlightMissing {
+  background-color: rgba(220, 38, 38, 0.2);
+  padding: 0 0.2rem;
+  border-radius: 0.25rem;
+}
+
+/* comparison.module.css */
+.diffViewer {
+  .diff-removed {
+    background-color: #fee2e2;
+    color: #dc2626;
+  }
+  
+  .diff-added {
+    background-color: #dbeafe;
+    color: #2563eb;
+  }
+
+  .diff-changed {
+    background-color: #fef3c7;
+    color: #d97706;
+  }
+}
+
