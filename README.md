@@ -1,19 +1,19 @@
 # TaskFlow - Streamlining Your Workflow
 
-![TaskFlow Logo](link-to-your-logo)
+![TaskFlow Logo](./readimg/homet.jpg)
 
 TaskFlow is a modern, intuitive application designed to streamline your document processing and task management workflows. By leveraging cutting-edge technologies like Google's Document AI and Firebase, TaskFlow offers a seamless experience from document upload to data extraction and task assignment.
 
 ## Features
 
 -   **Document Processing:** Utilizes Google's Document AI to intelligently extract text and data from uploaded documents.
-    ![Document Processing Screenshot](link-to-document-processing-screenshot)
+    ![Document Processing Screenshot](./readimg/comaprisont.png)
 -   **Task Management:** Assign and manage tasks associated with processed documents, ensuring efficient workflow.
-    ![Task Management Screenshot](link-to-task-management-screenshot)
+    ![Task Management Screenshot](./readimg/taskt.png)
 -   **User Authentication:** Secure user authentication via NextAuth.js with Google and GitHub OAuth.
 -   **Real-time Updates:** Leverages Convex for real-time data synchronization and updates.
 -   **Responsive Design:** A fully responsive design ensures a seamless experience across devices.
-    ![Responsive Design Screenshot](link-to-responsive-design-screenshot)
+    ![Responsive Design Screenshot](./readimg/respt.jpg)
 
 ## Technologies Used
 
@@ -124,11 +124,3 @@ Contributions are welcome! Please follow these steps:
 2.  Create a new branch for your feature or bug fix.
 3.  Implement your changes.
 4.  Submit a pull request.
-
-## License
-
-[MIT](link-to-license)
-
----
-
-**Note:** Replace the placeholder image links with actual screenshots of your application to make the `README.md` more visually appealing.
